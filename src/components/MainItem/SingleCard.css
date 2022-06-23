@@ -1,0 +1,67 @@
+.cardItem{
+    width:160px;
+    background-color: #101218bd;
+    border-radius: 10px;
+}
+.cardItem img{
+    height:200px;
+    width:100%;
+    grid-area: card;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.personName{
+   
+    padding:0 0 10px 8px;
+    border-radius: 0 10px;
+}
+@media(max-width:800px){
+    .cardItem img{
+        height:160px;
+       
+    }
+    .cardItem{
+        width:130px;
+    }
+}
+@media(max-width:650px){
+    .cardItem img{
+        height:150px;
+     
+    }
+    .cardItem{
+        width:120px;
+    }
+    .personName{
+        font-size:12px;
+        padding-top:3px;
+    }
+}
+@media(max-width:400px){
+    .cardItem img{
+        height:150px;
+      
+    }
+    .cardItem{
+        width:110px;
+    }
+}
+@media(max-width:350px){
+    .cardItem img{
+        height:130px;
+     
+    }
+    .cardItem{
+        width:90px;
+    }
+}
+@media(max-width:290px){
+    .cardItem img{
+        height:100px;
+      
+
+    }
+    .cardItem{
+        width:60px;
+    }
+}

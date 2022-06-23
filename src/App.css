@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background-color: #131927;
+  color:#fff;
+ 
+}
+
+.App{
+ 
+  display: flex;
+  flex-flow: column;
+  gap:1rem
+}
+a{
+  text-decoration: none;
+  display: block;
+  color: rgba(255, 255, 255, 0.74);
+}

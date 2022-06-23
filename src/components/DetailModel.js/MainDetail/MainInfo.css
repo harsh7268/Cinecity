@@ -1,0 +1,138 @@
+.detail1{
+    height:85vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2b2bd7;
+    margin:.5rem 0 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+}
+.detailImg{
+    margin-left: 3rem ;
+    z-index: 100;
+}
+.detailImg img{
+   width:350px;
+   height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.detailContent1{
+position: absolute;
+left:0;
+right:0;
+top:0;
+background-color: #1f2b2bd7;
+width:100%;
+height:100%;
+display: flex;
+flex-flow: column;
+justify-content: center;
+
+gap:1rem;
+padding-left: 28rem;
+}
+
+.detailContent1 .detailContent1Icons .user{
+    font-size: 4rem;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.detailContent1 .detailContent1Icons{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin:1rem 0;
+}
+.detailContent1 .detailContent1Icons .list{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #032541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.mainList{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin:1rem 0;
+}
+.writer{
+    display: flex;
+    gap:5rem;
+}
+.overViews{
+    padding-right: 2rem;
+}
+.play{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    
+}
+.play:hover{
+    opacity: .6;
+    cursor: pointer;
+    
+}
+.play div{
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+
+@media(max-width:980px){
+    .detail1{
+        flex-flow: column;
+        height:70vh;
+    }
+    .detailImg{
+        margin-top: 1rem;
+        margin-left: 0;
+       
+    }
+    .detailImg img{
+        width:80vw;
+        height:65vh;
+    }
+    .detailContent1{
+        top:70vh;
+        width:100vw;
+        height:80vh;
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .detailContent1 h1{
+        font-size:1.5rem;
+    }
+    .detailContent1 p{
+        font-size: .8rem;
+    }
+    .detailContent1 .detailContent1Icons{
+        flex-flow: column;
+        align-items: flex-start;
+        gap:10px;
+    }
+    .mainList{
+        justify-content: flex-start;
+        gap:10px;
+    }
+    .overViews{
+        padding-right: 5px;
+    }
+    .writer{
+        gap:0;
+        justify-content: space-between;
+    }
+}

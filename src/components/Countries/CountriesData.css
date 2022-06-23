@@ -1,0 +1,43 @@
+.countriesData{
+  display: grid;
+  grid-template-areas: 'item item item item item';
+  grid-gap:10px;
+  padding:1.2rem 4rem 0 4rem;
+}
+.countriesData .countriesDataItem{
+    grid-area: item;
+    width:230px;
+    height:130px;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    box-sizing:border-box; 
+  
+}
+@media(max-width:1280px){
+  .countriesData{
+    grid-template-areas: 'item item item item ';
+    padding:.5rem 1rem 0 1rem;
+  }
+}
+@media(max-width:980px){
+  .countriesData{
+    grid-template-areas: 'item item item ';
+    padding:.5rem 1rem 0 1rem;
+  }
+}
+@media(max-width:800px){
+  .countriesData{
+    grid-template-areas: 'item item';
+    padding:.5rem 1rem 0 1rem;
+  }
+  .countriesData .countriesDataItem{
+    font-size: 1rem;
+    width:45vw;
+    height: 100px;
+  }
+}

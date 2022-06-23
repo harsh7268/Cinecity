@@ -1,0 +1,41 @@
+.privacy{
+    display: flex;
+    flex-flow: column;
+    gap:1rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #000;
+}
+
+.privacy .privacyBox{
+    display: flex;
+    flex-flow: column;
+    gap:1.5rem;
+}
+.listItem{
+    list-style: circle;
+}
+.privacyData{
+    list-style: disc;
+    display:flex;
+    flex-flow: column;
+    gap:1rem;
+}
+.privacyData li{
+    display: flex;
+    flex-flow: column;
+    gap:.8rem;
+}
+.privacyData li .listItem{
+    display: flex;
+    flex-flow: column;
+    gap:.5rem;
+}
+@media(max-width:500px){
+    .privacy{
+        padding:1.5rem  1rem ;
+    }
+    .privacy h1{
+        font-size: 1.5rem;
+    }
+}

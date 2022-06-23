@@ -1,0 +1,43 @@
+.sliderItem img{
+    height:200px;
+    width:100%;
+    object-fit: cover;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.sliderItem{
+    width:160px;
+    background-color: #101218bd;
+    border-radius: 7px;
+}
+
+.personName1{
+    padding:5px 0 10px 8px;
+    border-radius: 0 7px;
+   
+}
+
+@media(max-width:800px){
+    .sliderItem img{
+        height:160px;
+       
+    }
+    .sliderItem{
+        width: 130px;
+    }
+    .personName1{
+        font-size:12px;
+        padding-top:7px;
+
+    }
+}
+@media(max-width:400px){
+    .sliderItem img{
+        height:160px;
+      
+
+    }
+    .sliderItem{
+        width: 110px;
+    }
+}

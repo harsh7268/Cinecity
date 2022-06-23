@@ -1,0 +1,135 @@
+.detail2{
+    margin:0rem 0rem 2rem 2rem;
+     display: flex;
+   
+    gap:2.4rem;
+  
+ 
+ }
+ .detail2 .castDetail{
+     display: flex;
+     align-items: center;
+     gap:1rem;
+    
+     max-width: 900px;
+    
+     overflow-x: scroll;
+ }
+  .castDetail::-webkit-scrollbar-track{
+     background-color: #192133;
+ }
+ .castDetail::-webkit-scrollbar{
+     width:5px;
+     height: 3px;
+ }
+ .castDetail::-webkit-scrollbar-thumb{
+     background-color:rgb(192, 192, 192) ;
+  }
+ .detail2 .cast{
+     background-color: #101218bd;
+     color:rgb(189, 188, 188);
+     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+     border-radius: 5px;
+    height:300px;
+   margin-bottom: 1rem;
+ }
+ .box{
+     border-radius: 10px;
+     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+     padding:1rem;
+     padding-bottom: 2rem;
+     background-color: #161e31;
+     font-size:13px;
+ }
+ .detail2 .cast img{
+     border-radius: 5px;
+     width:200px;
+     height:200px;
+ }
+ .detail2 .cast p{
+     padding:0 10px 10px;
+ }
+ 
+ .detail2 .socialLogo{
+     display: flex;
+     flex-flow: column;
+     gap:1.5rem;
+     color: rgba(202, 179, 179, 0.911);
+     background-color: #161e31;
+     max-height:192vh;
+     width:22%;
+     padding-top: 1.5rem;
+     padding-left: 1rem;
+     padding-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+ }
+ .detail2 .socialLogo .socialIcon{
+     font-size:1.7rem;
+ color: #fff;
+ display: flex;
+ gap:1.5rem;
+ align-items: center;
+ }
+ .detail2 .socialLogo .socialIcon a{
+     color: #fff;
+ }
+ .crew{
+     display: flex;
+     flex-flow: column;
+    
+     gap:2rem;
+   
+     width:72%;
+     
+ }
+ .detail2head{
+     font-size: 1.3rem;
+     margin-bottom: 1.5rem;
+ }
+ .name{
+     font-size: 1rem;
+     font-weight: bold;
+     color:rgb(224, 215, 215);
+ }
+ .crewContent{
+     display: flex;
+     flex-flow: column;
+     gap:2px;
+     padding:4px 0 0 8px;
+ }
+ 
+ .production{
+     display: flex;
+     flex-flow: column;
+     gap:1rem;
+ }
+ .production img{
+     width:150px;
+     height:40px;
+ }
+
+ @media(max-width:980px){
+     .detail2{
+         margin-top: 80vh;
+         flex-flow: column;
+         margin-left: 1rem;
+     }
+     .detail2 .castDetail{
+        
+         width:85vw;
+     }
+     .box{
+         width:90vw;
+     }
+     .detail2 .cast{
+         height:230px;
+     }
+     .detail2 .cast img{
+         height:150px;
+         width:150px;
+     }
+     .detail2 .socialLogo{
+         width:90vw;
+     }
+ }
